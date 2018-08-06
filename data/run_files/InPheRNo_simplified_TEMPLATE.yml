@@ -1,0 +1,25 @@
+method: InPheRNo_simple
+
+#                                              Input
+# input_directory
+id:     ../data/spreadsheets
+
+# input_tf
+it:     TF_Ensemble.csv
+
+# input_expression
+ie:     expr_sample.csv
+
+# input_gene_phenotype_interest
+igp:     Pvalue_gene_phenotype_interest.csv
+
+
+#                                              Output
+# output_directory
+od:     run_dir/results
+
+# output_network_pvalue
+onp:    Network_pvalue.csv
+
+# output_network_statistic
+ons:    Network_statistic.csv
