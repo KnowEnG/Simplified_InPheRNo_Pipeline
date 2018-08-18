@@ -1,7 +1,6 @@
 # Simplified_InPheRNo_Pipeline
-Simplified InPheRNo (Inference of Phenotype-relevant Regulatory Networks).
-
 This is the Knowledge Engine for Genomics (KnowEnG), an NIH BD2K Center of Excellence, Simplified InPheRNo Pipeline.
+Simplified InPheRNo (Inference of Phenotype-relevant Regulatory Networks) is a computational tool to reconstruct phenotype-relevant transcriptional regulatory networks (TRNs) using transcriptomic data.
 **** 
 # How to install and run this pipeline with the example data.
 1) Clone this repository to your directory with all KnowEnG python3 libraries installed.
