@@ -3,11 +3,18 @@ This is the Knowledge Engine for Genomics (KnowEnG), an NIH BD2K Center of Excel
 Simplified InPheRNo (Inference of Phenotype-relevant Regulatory Networks) is a computational tool to reconstruct phenotype-relevant transcriptional regulatory networks (TRNs) using transcriptomic data.
 **** 
 
+# Input Files
 | **Example Data File*** | **Requirements** |
 | --------------------------------------- | ---------------------------------------- |
 | /TF_Ensemble.csv | csv/tsv, no-header - names of regulators (TFs) |
 | /Pvalue_gene_phenotype_interest.csv | csv/tsv, genes x 1-p-value (with header) |
 | /expr_sample.csv | csv/tsv, gene/TF x samples |
+
+# Output Files
+| **Example Data File*** | **Format** |
+| --------------------------------------- | ---------------------------------------- |
+| /Network_statistic.csv | csv, genes x genes |
+| /Network_pvalue.csv | csv genes x genes |
 
 ****
 # How to install and run this pipeline with the example data.
