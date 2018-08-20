@@ -27,3 +27,9 @@ clean_dir_recursively:
 run_InPheRNo_simplified:
 	python3 $(SCRIPT) -run_directory $(RUN_DIR) -run_file InPheRNo_simplified_TEMPLATE.yml
 
+# ----------------------------------------------------------------
+# - VERIFICATION TESTS RUN SECTION                               -
+# ----------------------------------------------------------------
+verification_tests:
+	python3 ./integration/verify_benchmarks.py
+
