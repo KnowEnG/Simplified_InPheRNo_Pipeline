@@ -1,7 +1,24 @@
 # Simplified_InPheRNo_Pipeline
+*Simplified Inference of Phenotype-relevant Regulatory Networks*
 
 This is the Knowledge Engine for Genomics (KnowEnG), an NIH BD2K Center of Excellence, Simplified InPheRNo Pipeline.
 
+**** 
+
+# Input Files
+| **Example Data File** | **Requirements** |
+| --------------------------------------- | ---------------------------------------- |
+| /TF_Ensemble.csv | csv/tsv, no-header - names of regulators (TFs) |
+| /Pvalue_gene_phenotype_interest.csv | csv/tsv, genes x 1-p-value (with header) |
+| /expr_sample.csv | csv/tsv, gene/TF x samples |
+
+# Output Files
+| **Example Data File** | **Format** |
+| --------------------------------------- | ---------------------------------------- |
+| /Network_statistic.csv | csv, genes x genes |
+| /Network_pvalue.csv | csv genes x genes |
+
+****
 # How to install and run this pipeline with the example data.
 1) Clone this repository to your directory with all KnowEnG python3 libraries installed.
 
@@ -19,6 +36,13 @@ This is the Knowledge Engine for Genomics (KnowEnG), an NIH BD2K Center of Excel
 
 ```make run_InPheRNo_simplified```
 
+****
+# How to run with your data:
+1) Use steps 1 - 3 above to setup the environment and place the template yaml file in the run_directory.
+
+2) Edit the yaml file to reflect your input and output directory and input file names.
+
+3) Run step 4 above.
 ****
 
 # Run with docker
