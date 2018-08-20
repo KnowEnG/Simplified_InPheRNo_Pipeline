@@ -4,14 +4,14 @@ Simplified InPheRNo (Inference of Phenotype-relevant Regulatory Networks) is a c
 **** 
 
 # Input Files
-| **Example Data File*** | **Requirements** |
+| **Example Data File** | **Requirements** |
 | --------------------------------------- | ---------------------------------------- |
 | /TF_Ensemble.csv | csv/tsv, no-header - names of regulators (TFs) |
 | /Pvalue_gene_phenotype_interest.csv | csv/tsv, genes x 1-p-value (with header) |
 | /expr_sample.csv | csv/tsv, gene/TF x samples |
 
 # Output Files
-| **Example Data File*** | **Format** |
+| **Example Data File** | **Format** |
 | --------------------------------------- | ---------------------------------------- |
 | /Network_statistic.csv | csv, genes x genes |
 | /Network_pvalue.csv | csv genes x genes |
